@@ -20,7 +20,7 @@ export default class LinkList extends Vue {
                         if (link.length > 10) {                            
                             return (
                                 <a-tooltip title={link}>
-                                    <a-tag closable>
+                                    <a-tag color="blue" closable>
                                         {link.slice(0, 10) + '...'}
                                     </a-tag>
                                 </a-tooltip>

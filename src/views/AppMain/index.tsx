@@ -13,6 +13,11 @@ export default class AppMain extends Vue{
                 <div class="main-container">
                     <div class="left-container">
                         <LinkList></LinkList>
+                        <div class="page-container">
+                            <keep-alive max={10}>
+                                <router-view />
+                            </keep-alive>
+                        </div>
                     </div>
                     <div class="right-container">
                         
