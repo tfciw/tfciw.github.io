@@ -1,2 +1,2 @@
 dev:
-    npm run serve
+	npm run serve

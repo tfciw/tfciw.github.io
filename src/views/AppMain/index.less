@@ -1,0 +1,25 @@
+.top-container {
+    width: 100vw;
+    height: 58px;
+    background-color: #fff;
+    box-shadow: 4px 4px 40px 0 rgba(0,0,0,.05);
+}
+.main-container {
+    width: 100vw;
+    height: e('calc(100vh - 58px)');
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: flex;
+    .left-container {
+        width: e('calc(100vw - 450px)');
+        height: 100%;
+        overflow-y: auto;
+    }
+    .right-container {
+        width: 450px;
+        height: 100%;
+        overflow-y: auto;
+    }
+}
